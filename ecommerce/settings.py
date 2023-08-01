@@ -30,11 +30,11 @@ SECRET_KEY = 'django-insecure-1+tutuw(vxdna1mwfbbxrx=#&qz6l!%s*k25_9rwl01(!3r7m9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-# ALLOWED_HOSTS = ['abbystores.com' , 'www.abbystores.com','*'] # * means all of the access
+# ALLOWED_HOSTS = ['https://abby-store.onrender.com','*'] # * means all of the access
 
-ALLOWED_HOSTS =['*']
+ALLOWED_HOSTS =['abby-store.onrender.com','*']
 
-# CSRF_TRUSTED_ORIGINS = [''] #decide who is allowed to post in our website
+# CSRF_TRUSTED_ORIGINS = ['https://abby-store.onrender.com'] #decide who is allowed to post in our website
 
 
 # Application definition

@@ -178,22 +178,6 @@ AWS_S3_FILE_OVERWRITE = False
 ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 
-#AWS RDS database configration setting
-# DB_NAME=djangostore
-# DB_USER=abbystore
-# DB_PASSWORD=abby081285
-# DB_HOST=django-project.ctwkzcdojqrg.us-east-2.rds.amazonaws.com
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': env('DB_NAME'),
-#         'USER': env('DB_USER'),
-#         'PASSWORD': env('DB_PASSWORD'),
-#         'HOST': env('DB_HOST'),  # Host is aws s3 database endpoint
-#         'PORT': '5432',  # Use the default PostgreSQL port 5432 if not specified
-#     }
-# }
-
 #render setup
 import dj_database_url
 
